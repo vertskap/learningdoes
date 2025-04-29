@@ -1,6 +1,6 @@
 **DO NOT JUDGE MY ENGLISH, I AM LEARNING**
 
-i do not if package.json it is clear. so with the line below you can run the project:
+i do not know whether package.json it is clear. so with the line below you can run the project:
 
 > **npm run install**\n
 > **npm run electron-dev**
