@@ -1,0 +1,94 @@
+.winParent_hide {
+    display: none;
+}
+
+.winParent {
+    background-color: var(--background);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    inset: 0;
+    z-index: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+    animation: winParent_show 1s ease-out;
+}
+
+.winParent__child_title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+@keyframes winParent_show {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+.winParent__child {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 10px; */
+    padding: 20px 0;
+}
+
+.winHyperParent__child p {
+    font-size: 1em;
+    display: inline-block;
+}
+
+.winHyperParent__home {
+    background-image: url("/assets/images/home.png");
+}
+
+.winHyperParent__repeat {
+    background-image: url("/assets/images/repeat.png");
+}
+
+.winHyperParent__next {
+    background-image: url("/assets/images/right-arrow.png");
+}
+
+.winHyperParent__home,
+.winHyperParent__repeat,
+.winHyperParent__next {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.winHyperParent__child_btn {
+    all: unset;
+    cursor: pointer;
+}
+
+.winHyperParent {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+/* .winHyperParent__child {
+    border: 2px solid green;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+} */

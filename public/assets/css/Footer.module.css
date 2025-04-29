@@ -1,0 +1,56 @@
+.footParent {
+    font-size: .63em;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: flex-end;
+}
+
+.footTitle {
+    grid-column: 1;
+}
+
+.footDesc {
+    grid-column: 2 / 4;
+}
+
+.footBody {
+    grid-column: 4 / 6;
+}
+
+.footCopy {
+    grid-column: 1 / 6;
+}
+
+.footParent__child {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footParent__child:last-child {
+    flex-flow: row nowrap;
+}
+
+.footMembers {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.footInt:first-child {
+    align-self: flex-start;
+}
+
+.footInt:nth-child(2) {
+    align-self: center;
+}
+
+.footInt:last-child {
+    align-self: flex-end;
+}

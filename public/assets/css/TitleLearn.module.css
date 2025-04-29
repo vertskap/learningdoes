@@ -1,0 +1,32 @@
+.TitleLearnContainer {
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.TitleLearnFont {
+    font-size: 2rem;
+
+    border-right: 2px solid var(--foreground);
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 3s steps(var(--text-length)) forwards, blink .7s infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: calc(var(--text-length) * 1ch);
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

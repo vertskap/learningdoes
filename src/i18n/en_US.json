@@ -1,0 +1,53 @@
+{
+    "header": {
+        "theme": {
+            "dark": {
+                "title": "Dark"
+            },
+            "light": {
+                "title": "Light"
+            }
+        }
+    },
+    "home": {
+        "title": "Welcome to the Learningdoes"
+    },
+    "dashboard": "WELCOME TO GAME MANAGEMENT!",
+    "sidebar": {
+        "title": "Attempts"
+    },
+    "win": {
+        "title": "CONGRATULATIONS! YOU HAVE PASS THE LEVEL",
+        "body": "ATTEMPTS"
+    },
+    "drag": {
+        "title": "Drag Level",
+        "description": "You must drag and drop the correct operator inside at right side of window, over unknown box below"
+    },
+    "logic": {
+        "title": "LOGICAL LEVEL",
+        "description": "You must decide if left count is less than, greater than, less than or equal to and greater than or equeal to that right count",
+        "choose": "Choose an option!",
+        "value": {
+            "true": {
+                "name": "true"
+            },
+            "false": {
+                "name": "false"
+            }
+        }
+        
+    },
+    "notfound": {
+        "title": "RESOURCE DOESNT EXISTS",
+        "description": {
+            "first": "WE ARE WORKING... TRY LATER",
+            "second": "YOU WILL BE REDIRECT IN..."
+        }
+    },
+    "footer": {
+        "title": "Learningdoes",
+        "description": "Learn arithmetic operations and popular language skills in a fun and interactive way!",
+        "copyright": "2025 All Rights Reserved!"
+    }
+}

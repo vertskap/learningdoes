@@ -1,0 +1,53 @@
+{
+    "header": {
+        "theme": {
+            "dark": {
+                "title": "Oscuro"
+            },
+            "light": {
+                "title": "Claro"
+            }
+        }
+    },
+    "home": {
+        "title": "¡Bienvenido a Learningdoes!"
+    },
+    "dashboard": "¡BIENVENIDO AL PANEL DE GESTION!",
+    "sidebar": {
+        "title": "Intentos"
+    },
+    "win": {
+        "title": "¡Felicidades! Haz Pasado el Nivel",
+        "body": "INTENTOS"
+    },
+    "drag": {
+        "title": "NIVEL DE ARRASTRE",
+        "description": "Debes selecionar y arrastrar el operador situado a la derecha de la ventana, y soltarlo sobre la caja incógnita de abajo"
+    },
+    "logic": {
+        "title": "NIVEL LÓGICO",
+        "description": "Debes decidir si el valor de la izquierda es menor, mayor, menor igual o mayor igual que el valor de la derecha",
+        "choose": "¡Elije una opcion!",
+        "value": {
+            "true": {
+                "name": "verdadero"
+            },
+            "false": {
+                "name": "falso"
+            }
+        }
+        
+    },
+    "notfound": {
+        "title": "RECURSO NO EXISTE",
+        "description": {
+            "first": "ESTAMOS TRABAJANDO EN ELLO... INTENTE MÁS TARDE",
+            "second": "SERÁS REDIRIGIDO EN..."
+        }
+    },
+    "footer": {
+        "title": "Learningdoes",
+        "description": "Aprende de una manera interactiva y divertida operaciones aritmeticas y del lenguaje popular",
+        "copyright": "2025 ¡Todos los Derechos Reservados!"
+    }
+}

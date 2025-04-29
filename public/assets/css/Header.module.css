@@ -1,0 +1,170 @@
+.parent {
+    /** OJO CON FLEX: 1*/
+    flex: 0 1 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme {
+    font-size: 11px;
+}
+
+/*.theme__parent {
+    border: 1px solid lightblue;
+    height: 40px;
+    max-height: 80px;
+    width: 140px;
+    position: relative;
+    border-radius: 50px 50px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+div.theme__parent_child {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+div.theme__bg_config {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+div.theme__bg {
+    background: #fff;
+    mask-image: url("/assets/icons/moon-stars.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+span.theme__parent_child {
+    flex: 1;
+    display: flex;
+    justify-content: center;*/
+/* position: absolute;
+    right: 0; 
+}*/
+
+/* .theme__parent_child {
+    border: 1px solid yellow;
+} */
+
+label.theme__parent {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 34px;
+}
+
+label.theme__parent input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+span.theme__parent_child {
+    position: absolute;
+    cursor: pointer;
+    background-color: var(--background);
+    border-radius: 34px;
+    inset: 0;
+    transition: background-color .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    color: white;
+}
+
+span.theme__parent_child::before {
+    content: "";
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    top: 4px;
+    background-color: var(--foreground);
+    border-radius: 50%;
+    transition: transform .3s;
+    z-index: 1;
+
+    mask-image: url("/assets/icons/sun-stars.svg");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+}
+
+span span.theme__night
+
+/*,
+span span.theme__light*/
+    {
+    flex: 0 0 content;
+    z-index: 2;
+    transition: opacity .3s;
+}
+
+input:checked+span.theme__parent_child {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+input:checked+span.theme__parent_child::before {
+    mask-image: url("/assets/icons/moon-stars.svg");
+    background-color: var(--foreground);
+    transform: translateX(83px);
+}
+
+input:checked+span.theme__parent_child .theme__night {
+    opacity: 1;
+}
+
+/* input:checked+span.theme__parent_child .theme__light {
+    opacity: 0;
+} */
+
+/* input:not(:checked)+span.theme__parent_child .theme__night {
+    opacity: 0;
+} */
+
+/* input:not(:checked)+span.theme__parent_child .theme__light {
+    opacity: 1;
+} */
+
+/** ANIMATION TESTING */
+
+.translate {
+    gap: 10px;
+}
+
+.translate__select {
+    outline: none;
+}
+
+.lang__icon {
+    display: block;
+    width: 26px;
+    height: 26px;
+    background: var(--foreground);
+
+    mask-image: url("/assets/icons/earth-west.svg");
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+}

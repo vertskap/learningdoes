@@ -10,12 +10,16 @@
 !.yarn/releases
 !.yarn/versions
 
+# mis ficheros
+/notation.txt
+
 # testing
 /coverage
 
 # next.js
 /.next/
 /out/
+/dist/
 
 # production
 /build

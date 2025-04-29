@@ -1,0 +1,14 @@
+.GearParent {
+    cursor: pointer;
+}
+
+.gear__icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: var(--foreground);
+    mask-image: url("/assets/icons/gears.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
